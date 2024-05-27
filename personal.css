@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0%;
+    padding: 0px;
+}
+.flexone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.flextwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.white{
+    color: white;
+}
+#overallWrapper{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+#firstWrapper{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 50px 9%;
+}
+#wrapMenu{
+    width: 100%;
+    background-color: green;
+    padding: 1px 14%;
+    align-items: center;
+}
+#cap{
+    background-color: white;
+    color: green;
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 20px 20px;
+}
+
+#mainMenu{
+ width: 35%;
+}
+#mainMenu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+#firstImg{
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    padding: 8% 0px;
+}
+#emma{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    margin-bottom: 2%;
+    color: white;
+}
+#web{
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+#secondWrapper{
+    background-color: grey;
+    padding: 7% 0px;
+}
+#build{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+#plat{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1%;
+    color: white;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+#iconsword{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#iconWord{
+    width: 40%;
+}
+.iconshift{
+    margin-left: 5%;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+.icondec{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#iconsword2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+#iconword2{
+    width: 30%;
+}
+#iconword2 a{
+    text-decoration: none;
+    color: white;
+}
+.atIcon{
+    color: white;
+}
+.mailto{
+    margin-left: 8px;
+}
+#call{
+    color: white;
+}
+#callm{
+    color: white;
+    margin-left: 8px;
+}
+#finalDiv{
+    margin-top: 13%;
+    border-top: 4px solid green;
+    padding: 1px 12%;
+}
+.white{
+    margin-top: 8%;
+    font-size: 20px;
+}
+
